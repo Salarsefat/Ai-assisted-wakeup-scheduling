@@ -1,0 +1,33 @@
+\begin{table*}[t]
+\centering
+\caption{Violation ratio $\bar v$ (\%), MAE, mean AoI and realised energy relative to the budget ($E/B$) at $\rho=1/30$, $\alpha=1$, $K=\lceil3N\rho\rceil$. Trace metrics use observed minutes only. Synthetic: mean $\pm$ 95\% CI over 20 seeds. Hindsight baselines tune their parameters on the evaluation data itself.}
+\label{tab:main}
+\setlength{\tabcolsep}{5pt}
+\small
+\begin{tabular}{@{}lcccccccc@{}}
+\toprule
+ & \multicolumn{4}{c}{Intel main (28 motes)} & Held-out (8) & \multicolumn{3}{c}{Synthetic ($N{=}100$)}\\
+\cmidrule(lr){2-5}\cmidrule(lr){6-6}\cmidrule(l){7-9}
+Policy & $\bar v$ & MAE [$^\circ$C] & AoI [min] & $E/B$ & $\bar v$ & $\bar v$ & MAE & $E/B$\\
+\midrule
+RR (periodic) & 11.67 & 0.269 & 17.6 & 1.00 & 9.65 & 4.16$\pm$0.14 & 0.120 & 1.00\\
+Schedule (warm-up day) & 10.57 & 0.247 & 20.2 & 1.00 & 8.72 & 2.89$\pm$0.11 & 0.113 & 1.00\\
+Schedule (hindsight) & 9.22 & 0.224 & 22.3 & 1.00 & 7.12 & 2.45$\pm$0.10 & 0.111 & 1.00\\
+RND & 20.69 & 0.538 & 33.0 & 0.99 & 20.86 & 7.51$\pm$0.17 & 0.160 & 1.00\\
+MaxVar & 11.94 & 0.270 & 17.6 & 1.00 & 9.67 & 4.15$\pm$0.13 & 0.120 & 1.00\\
+DPS (push, hindsight) & 9.97 & 0.251 & 34.8 & 0.95 & 7.52 & 3.19$\pm$0.12 & 0.144 & 0.92\\
+\midrule
+\textbf{FG-Wake} & \textbf{9.88} & 0.342 & 23.9 & 1.01 & \textbf{7.73} & \textbf{3.03$\pm$0.11} & 0.113 & 0.99\\
+\quad without time-of-day shape & 7.94 & 0.218 & 19.8 & 1.00 & 7.75 & 3.28$\pm$0.11 & 0.113 & 0.99\\
+\quad without calibration (Gaussian) & 14.70 & 0.749 & 35.2 & 1.01 & 8.01 & 3.03$\pm$0.11 & 0.117 & 0.99\\
+\quad without renewal index (myopic) & 10.85 & 0.268 & 24.7 & 1.01 & 9.01 & 3.61$\pm$0.12 & 0.125 & 0.99\\
+\quad without projection & 9.52 & 0.278 & 22.4 & 1.01 & 7.94 & 3.02$\pm$0.10 & 0.113 & 0.99\\
+\quad frozen after warm-up & 12.57 & 0.268 & 19.0 & 0.98 & 10.12 & 3.54$\pm$0.10 & 0.118 & 0.99\\
+\quad without debt cap & 12.01 & 0.690 & 33.2 & 1.02 & 19.56 & 3.02$\pm$0.11 & 0.113 & 0.99\\
+\quad genie variance & -- & -- & -- & -- & -- & 2.71$\pm$0.10 & 0.120 & 0.99\\
+\midrule
+Oracle (clairvoyant) & 2.22 & 0.189 & 35.2 & 1.01 & 2.38 & 0.15$\pm$0.02 & 0.098 & 1.00\\
+\bottomrule
+\end{tabular}
+\vspace{-3mm}
+\end{table*}

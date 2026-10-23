@@ -1,0 +1,1346 @@
+[
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.0,
+  "viol": 0.11691814809018349,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.125,
+  "viol": 0.11225676575556436,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.25,
+  "viol": 0.10883514541119284,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.375,
+  "viol": 0.11500633690225213,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.5,
+  "viol": 0.13107414329070885,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.75,
+  "viol": 0.2032687981980489,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 1.0,
+  "viol": 0.30414675835995447,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 1.5,
+  "viol": 0.42998260037008734,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.0,
+  "viol": 0.11691814809018349,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.125,
+  "viol": 0.11109679042805544,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.25,
+  "viol": 0.10675455474439115,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.375,
+  "viol": 0.10571732812878795,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.5,
+  "viol": 0.11041553507697878,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.75,
+  "viol": 0.1405411376964363,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 1.0,
+  "viol": 0.19483903040792466,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 1.5,
+  "viol": 0.3592118305208535,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.0,
+  "viol": 0.11691814809018349,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.125,
+  "viol": 0.10597816914158757,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.25,
+  "viol": 0.09690397061395838,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.375,
+  "viol": 0.09218735135898168,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.5,
+  "viol": 0.10225888317084472,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.75,
+  "viol": 0.16893905219582103,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 1.0,
+  "viol": 0.28171136254138934,
+  "rate": 1.0
+ },
+ {
+  "src": "trace",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 1.5,
+  "viol": 0.4140559550003222,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.0,
+  "viol": 0.09788138546240156,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.125,
+  "viol": 0.08455873812344647,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.25,
+  "viol": 0.08500011615211281,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.375,
+  "viol": 0.08042372290751969,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.5,
+  "viol": 0.0899714265802495,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.75,
+  "viol": 0.12621088577601228,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 1.0,
+  "viol": 0.19223174669547238,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 1.5,
+  "viol": 0.33583060375868234,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.0,
+  "viol": 0.09788138546240156,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.125,
+  "viol": 0.09038957418635445,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.25,
+  "viol": 0.08717216066160244,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.375,
+  "viol": 0.10150533138197784,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.5,
+  "viol": 0.1258275838037494,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.75,
+  "viol": 0.2599716588844751,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 1.0,
+  "viol": 0.375368782958162,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 1.5,
+  "viol": 0.5198852417125468,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.0,
+  "viol": 0.09788138546240156,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.125,
+  "viol": 0.08193370037400981,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.25,
+  "viol": 0.07276929867354287,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.375,
+  "viol": 0.07116639951680721,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.5,
+  "viol": 0.07273445303970079,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.75,
+  "viol": 0.10341022603201153,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 1.0,
+  "viol": 0.18099983738704206,
+  "rate": 1.0
+ },
+ {
+  "src": "heldout",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 1.5,
+  "viol": 0.3088833135874742,
+  "rate": 1.0
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.0,
+  "viol": 0.03716388888888889,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.125,
+  "viol": 0.03270138888888889,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.25,
+  "viol": 0.02993263888888889,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.375,
+  "viol": 0.027213194444444446,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.5,
+  "viol": 0.024893055555555557,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 0.75,
+  "viol": 0.022338194444444445,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 1.0,
+  "viol": 0.021115277777777778,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "incr",
+  "expo": 1.5,
+  "viol": 0.02359097222222222,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.0,
+  "viol": 0.03716388888888889,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.125,
+  "viol": 0.03278333333333333,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.25,
+  "viol": 0.029884722222222222,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.375,
+  "viol": 0.02782638888888889,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.5,
+  "viol": 0.02669513888888889,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 0.75,
+  "viol": 0.02530763888888889,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 1.0,
+  "viol": 0.027158333333333333,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "causal",
+  "expo": 1.5,
+  "viol": 0.03871736111111111,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.0,
+  "viol": 0.03716388888888889,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.125,
+  "viol": 0.032306944444444444,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.25,
+  "viol": 0.0292375,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.375,
+  "viol": 0.027100694444444445,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.5,
+  "viol": 0.024741666666666665,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 0.75,
+  "viol": 0.022594444444444445,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 1.0,
+  "viol": 0.022259027777777777,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 0,
+  "stat": "rrviol",
+  "expo": 1.5,
+  "viol": 0.026346527777777778,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "incr",
+  "expo": 0.0,
+  "viol": 0.04430347222222222,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "incr",
+  "expo": 0.125,
+  "viol": 0.04005625,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "incr",
+  "expo": 0.25,
+  "viol": 0.03630694444444445,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "incr",
+  "expo": 0.375,
+  "viol": 0.033702777777777776,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "incr",
+  "expo": 0.5,
+  "viol": 0.031503472222222224,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "incr",
+  "expo": 0.75,
+  "viol": 0.028674305555555557,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "incr",
+  "expo": 1.0,
+  "viol": 0.027026388888888888,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "incr",
+  "expo": 1.5,
+  "viol": 0.032682638888888886,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "causal",
+  "expo": 0.0,
+  "viol": 0.04430347222222222,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "causal",
+  "expo": 0.125,
+  "viol": 0.04027847222222222,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "causal",
+  "expo": 0.25,
+  "viol": 0.03697569444444444,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "causal",
+  "expo": 0.375,
+  "viol": 0.03449097222222222,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "causal",
+  "expo": 0.5,
+  "viol": 0.03278888888888889,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "causal",
+  "expo": 0.75,
+  "viol": 0.031216666666666667,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "causal",
+  "expo": 1.0,
+  "viol": 0.034224305555555556,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "causal",
+  "expo": 1.5,
+  "viol": 0.04968541666666667,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "rrviol",
+  "expo": 0.0,
+  "viol": 0.04430347222222222,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "rrviol",
+  "expo": 0.125,
+  "viol": 0.03954791666666667,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "rrviol",
+  "expo": 0.25,
+  "viol": 0.03583125,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "rrviol",
+  "expo": 0.375,
+  "viol": 0.032758333333333334,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "rrviol",
+  "expo": 0.5,
+  "viol": 0.03082638888888889,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "rrviol",
+  "expo": 0.75,
+  "viol": 0.028038888888888888,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "rrviol",
+  "expo": 1.0,
+  "viol": 0.027677777777777777,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 1,
+  "stat": "rrviol",
+  "expo": 1.5,
+  "viol": 0.03908472222222222,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "incr",
+  "expo": 0.0,
+  "viol": 0.04031666666666667,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "incr",
+  "expo": 0.125,
+  "viol": 0.03572361111111111,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "incr",
+  "expo": 0.25,
+  "viol": 0.03278402777777778,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "incr",
+  "expo": 0.375,
+  "viol": 0.029774305555555554,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "incr",
+  "expo": 0.5,
+  "viol": 0.028047222222222223,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "incr",
+  "expo": 0.75,
+  "viol": 0.024740972222222223,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "incr",
+  "expo": 1.0,
+  "viol": 0.0237875,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "incr",
+  "expo": 1.5,
+  "viol": 0.026472222222222223,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "causal",
+  "expo": 0.0,
+  "viol": 0.04031666666666667,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "causal",
+  "expo": 0.125,
+  "viol": 0.03563125,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "causal",
+  "expo": 0.25,
+  "viol": 0.03296875,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "causal",
+  "expo": 0.375,
+  "viol": 0.03063611111111111,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "causal",
+  "expo": 0.5,
+  "viol": 0.029277777777777778,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "causal",
+  "expo": 0.75,
+  "viol": 0.02796736111111111,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "causal",
+  "expo": 1.0,
+  "viol": 0.029399305555555557,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "causal",
+  "expo": 1.5,
+  "viol": 0.04392430555555556,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "rrviol",
+  "expo": 0.0,
+  "viol": 0.04031666666666667,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "rrviol",
+  "expo": 0.125,
+  "viol": 0.035458333333333335,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "rrviol",
+  "expo": 0.25,
+  "viol": 0.031968055555555555,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "rrviol",
+  "expo": 0.375,
+  "viol": 0.028846527777777776,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "rrviol",
+  "expo": 0.5,
+  "viol": 0.026978472222222223,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "rrviol",
+  "expo": 0.75,
+  "viol": 0.025010416666666667,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "rrviol",
+  "expo": 1.0,
+  "viol": 0.024067361111111112,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 2,
+  "stat": "rrviol",
+  "expo": 1.5,
+  "viol": 0.033022916666666666,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "incr",
+  "expo": 0.0,
+  "viol": 0.04484722222222222,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "incr",
+  "expo": 0.125,
+  "viol": 0.03929652777777778,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "incr",
+  "expo": 0.25,
+  "viol": 0.03617847222222222,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "incr",
+  "expo": 0.375,
+  "viol": 0.032933333333333335,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "incr",
+  "expo": 0.5,
+  "viol": 0.030333333333333334,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "incr",
+  "expo": 0.75,
+  "viol": 0.02740625,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "incr",
+  "expo": 1.0,
+  "viol": 0.026967361111111112,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "incr",
+  "expo": 1.5,
+  "viol": 0.03289930555555556,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "causal",
+  "expo": 0.0,
+  "viol": 0.04484722222222222,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "causal",
+  "expo": 0.125,
+  "viol": 0.03967430555555555,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "causal",
+  "expo": 0.25,
+  "viol": 0.036372916666666665,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "causal",
+  "expo": 0.375,
+  "viol": 0.03426944444444444,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "causal",
+  "expo": 0.5,
+  "viol": 0.03245763888888889,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "causal",
+  "expo": 0.75,
+  "viol": 0.030841666666666667,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "causal",
+  "expo": 1.0,
+  "viol": 0.03212569444444444,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "causal",
+  "expo": 1.5,
+  "viol": 0.04561458333333333,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "rrviol",
+  "expo": 0.0,
+  "viol": 0.04484722222222222,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "rrviol",
+  "expo": 0.125,
+  "viol": 0.03931805555555556,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "rrviol",
+  "expo": 0.25,
+  "viol": 0.035209722222222226,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "rrviol",
+  "expo": 0.375,
+  "viol": 0.032286805555555555,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "rrviol",
+  "expo": 0.5,
+  "viol": 0.029527083333333332,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "rrviol",
+  "expo": 0.75,
+  "viol": 0.02675486111111111,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "rrviol",
+  "expo": 1.0,
+  "viol": 0.026415277777777777,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 3,
+  "stat": "rrviol",
+  "expo": 1.5,
+  "viol": 0.03654375,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "incr",
+  "expo": 0.0,
+  "viol": 0.034994444444444446,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "incr",
+  "expo": 0.125,
+  "viol": 0.031114583333333334,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "incr",
+  "expo": 0.25,
+  "viol": 0.027733333333333332,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "incr",
+  "expo": 0.375,
+  "viol": 0.02561875,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "incr",
+  "expo": 0.5,
+  "viol": 0.023035416666666666,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "incr",
+  "expo": 0.75,
+  "viol": 0.020681944444444444,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "incr",
+  "expo": 1.0,
+  "viol": 0.020024305555555556,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "incr",
+  "expo": 1.5,
+  "viol": 0.022390277777777776,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "causal",
+  "expo": 0.0,
+  "viol": 0.034994444444444446,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "causal",
+  "expo": 0.125,
+  "viol": 0.03170694444444445,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "causal",
+  "expo": 0.25,
+  "viol": 0.028675,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "causal",
+  "expo": 0.375,
+  "viol": 0.0267125,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "causal",
+  "expo": 0.5,
+  "viol": 0.02498888888888889,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "causal",
+  "expo": 0.75,
+  "viol": 0.024006944444444445,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "causal",
+  "expo": 1.0,
+  "viol": 0.024833333333333332,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "causal",
+  "expo": 1.5,
+  "viol": 0.034722222222222224,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "rrviol",
+  "expo": 0.0,
+  "viol": 0.034994444444444446,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "rrviol",
+  "expo": 0.125,
+  "viol": 0.03169305555555556,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "rrviol",
+  "expo": 0.25,
+  "viol": 0.027657638888888888,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "rrviol",
+  "expo": 0.375,
+  "viol": 0.02500902777777778,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "rrviol",
+  "expo": 0.5,
+  "viol": 0.02338263888888889,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "rrviol",
+  "expo": 0.75,
+  "viol": 0.021073611111111112,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "rrviol",
+  "expo": 1.0,
+  "viol": 0.020670833333333333,
+  "rate": 0.9999999999999998
+ },
+ {
+  "src": "synth",
+  "seed": 4,
+  "stat": "rrviol",
+  "expo": 1.5,
+  "viol": 0.027222916666666666,
+  "rate": 0.9999999999999998
+ }
+]

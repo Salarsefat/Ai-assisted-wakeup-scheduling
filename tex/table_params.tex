@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{Simulation parameters (defaults; sweeps in Section~\ref{sec:results}).}
+\label{tab:params}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}l@{\hspace{4pt}}>{\raggedright\arraybackslash}p{0.60\columnwidth}@{}}
+\toprule
+Slot; horizon & 1 min; trace: 10 days (1 warm-up + 9); synthetic: 11 days (1 + 10)\\
+Budget $\rho$; capacity $K$ & 1/30 polls/slot; $\lceil 3N\rho\rceil$\\
+Tolerance $\epsilon$; sensing cost $\alpha$ & 0.5 ($^\circ$C on the trace); 1\\
+Trace & 28 motes ($K{=}3$); held-out 8 motes ($K{=}1$)\\
+Synthetic & $N{=}100$, $\sigma_0{=}0.01$, $\sigma_n{=}0.02$, 20 seeds (sweeps: 3--10)\\
+FG-Wake forecaster & $B{=}48$, $\beta{=}0.02$, $\omega_\uparrow{=}0.5$, $\omega_\downarrow{=}0.2$\\
+Index, price, learning & $\bar w{=}2$, $S{=}10$, $V{=}200$, $\eta{=}0.01$ (validated)\\
+Trend smoothing $\gamma$ & 0.3 (trace, all policies)\\
+DPS grid & $T_s\in\{1,2,\dots\}$ up to $1/\rho$, including $\lfloor1/\rho\rfloor,\lceil1/\rho\rceil$; $\kappa\in\{0.2,0.5,0.7,1\}$, $S'\in\{10,40\}$\\
+Schedules & rate$_h\propto p_h^{\,q}$, $q\in\{0,0.125,0.25,0.375,0.5,0.75,1,1.5\}$\\
+\bottomrule
+\end{tabular}
+\vspace{-3mm}
+\end{table}

@@ -1,0 +1,16 @@
+# generated trace data (download the Intel Lab data and run code/prep_intel.py)
+data/*
+!data/README.md
+# Python
+__pycache__/
+*.pyc
+# LaTeX build files
+tex/*.aux
+tex/*.log
+tex/*.out
+tex/*.bbl
+tex/*.blg
+tex/*.fls
+tex/*.fdb_latexmk
+tex/*.synctex.gz
+tex/main.pdf
