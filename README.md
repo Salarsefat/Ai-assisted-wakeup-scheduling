@@ -37,35 +37,61 @@ from `results/*.json`. No number is typed by hand.
 
 ## Requirements
 
-Python 3.10+ (tested with 3.13), see `requirements.txt`; TeX Live with `IEEEtran` for the paper.
+Python 3.10 or newer (tested with Python 3.13 and 3.14) and the packages in `requirements.txt`;
+TeX Live with `IEEEtran` to compile the paper.
+
+The scripts take command-line arguments, so run them from a terminal, not with an editor's Run button.
+All commands below are run from the repository folder.
+
+## Quick start
+
+Linux / macOS:
 
 ```bash
-pip install -r requirements.txt
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+curl -L -o data.txt.gz https://db.csail.mit.edu/labdata/data.txt.gz
+.venv/bin/python code/prep_intel.py data.txt.gz data                       # main window (2004-02-29, 28 motes)
+.venv/bin/python code/prep_intel.py data.txt.gz data 2004-03-10 _heldout    # held-out window (2004-03-12, 8 motes)
+.venv/bin/python code/make_outputs.py                                       # numbers, tables and figures
 ```
 
-## Reproduce
+Windows (PowerShell):
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+curl.exe -L -o data.txt.gz https://db.csail.mit.edu/labdata/data.txt.gz
+.\.venv\Scripts\python.exe code\prep_intel.py data.txt.gz data
+.\.venv\Scripts\python.exe code\prep_intel.py data.txt.gz data 2004-03-10 _heldout
+.\.venv\Scripts\python.exe code\make_outputs.py
+```
+
+`prep_intel.py` reads the compressed file directly (no need to unzip it). `make_outputs.py` rebuilds every
+number, table and figure of the paper from `results/*.json` in a few seconds; it also reads the prepared
+trace files in `data/`, so prepare the data first.
+
+## Reproduce all experiments
+
+Use the Python of the virtual environment created above (`.venv/bin/python` or `.\.venv\Scripts\python.exe`).
 
 ```bash
-# 1. data: download data.txt.gz from https://db.csail.mit.edu/labdata/labdata.html, unzip, then
-python3 -I code/prep_intel.py /path/to/data.txt data                     # main window (2004-02-29, 28 motes)
-python3 -I code/prep_intel.py /path/to/data.txt data 2004-03-10 _heldout  # held-out window (2004-03-12, 8 motes)
-
-# 2. hyper-parameter selection on synthetic validation seeds 100-104 (optional: the selections used in
-#    the paper are included as results/val_best.json and results/val_best_myopic.json)
-cd code
-python3 run_experiments.py val val_myopic
+# hyper-parameter selection on synthetic validation seeds 100-104 (optional: the selections used in
+# the paper are included as results/val_best.json and results/val_best_myopic.json)
+python code/run_experiments.py val val_myopic
 #   rule: S fixed to 10 polls by design (allowed budget deviation); V, eta and B chosen by the lowest
 #   mean validation violation ratio (grids in run_experiments.py: GRID_FG, GRID_MYO).
 
-# 3. experiments (about 1-1.5 h on 2 cores; synthetic parts do not need the trace)
-python3 run_experiments.py main diag runtime eps headroom budget alpha sched robust
+# all experiments of the paper (about 1-1.5 h on 2 cores; overwrites results/)
+python code/run_experiments.py main diag runtime eps headroom budget alpha sched robust
 
-# 4. numbers, tables, figures and PDF
-python3 make_outputs.py
-cd ../tex && latexmk -pdf main.tex
+# numbers, tables, figures and PDF
+python code/make_outputs.py
+cd tex && latexmk -pdf main.tex
 ```
 
-`make_outputs.py` also reads the trace files in `data/`, so run step 1 before step 4.
+All results are deterministic, except that re-running `runtime` replaces the run times and the
+Python/NumPy versions reported in the paper with those of your machine.
 
 ## Evaluation protocol (summary)
 
@@ -92,7 +118,7 @@ cd ../tex && latexmk -pdf main.tex
 
 FG-Wake beats periodic polling and the schedule calibrated on a warm-up day on the trace. A schedule fitted
 in hindsight does better, and push is on par. FG-Wake loses when the budget is too small for the
-tolerance. See Sections VI and VII of the paper for the limits.
+tolerance. See the results section of the paper for the limits.
 
 ## Data
 
